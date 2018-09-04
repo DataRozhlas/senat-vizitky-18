@@ -1,11 +1,16 @@
-var host = 'https://data.irozhlas.cz/senat-vizitky-18/';
+var host;
+if (location.href.split('?')[0].indexOf('irozhlas') == -1) {
+    host = location.href.split('?')[0];
+} else {
+    host = 'https://data.irozhlas.cz/senat-vizitky-18/';
+}
 
 function share(url) {
     window.open(url, 'Sdílení', 'width=550,height=450,scrollbars=no');
 };
 
 var vo = [2,  5,  8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80];
-var voDone = [2, 5];
+var voDone = [26];
 
 //social sharing
 function makeSelect() {
@@ -30,14 +35,12 @@ function makeSelect() {
         + filtered.povolani
         //+ (filtered.pozn != null ? '<div><span class="supplemental">' + filtered.pozn + '</span></div>' : '')
         + '</span>'
-        //+ (filtered.mp3 != null ? '<div><audio src="https://samizdat.blob.core.windows.net/vizitky17/' + filtered.mp3 + '" preload="none" controls="yes"></audio></div>'  : '')
-        + (filtered.file != 'x' ? '<div><audio src="https://ia801609.us.archive.org/16/items/PreussensGloria/Preussens_Gloria.mp2" preload="none" controls="yes"></audio></div>'  : '')
+        + (filtered.file != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + id[0] + '_' + id[1] + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
         + '</div><div class="left"><img width="120" height="180" alt="' 
         + filtered.jmeno
         + '" src="'
-        //+ host + 'foto/'
-        //+ data[obvod][per].file + '.jpg'
-        + 'https://s3.amazonaws.com/baconmockup/img/baconmockup-95-130.jpg' // DUMMY FOTO
+        + host + 'media/foto/'
+        + filtered.file + '.jpg'
         +'"></div></li>'
         out += '</ul>'
         $('.linked').html(out);
@@ -60,14 +63,12 @@ function makeTable(obvod) {
         + '</span>'
         + '<span class="share">Sdílet na <a href="javascript:share(\'https://www.facebook.com/sharer/sharer.php?u=' + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');'
         + '">Facebook</a> | <a href="javascript:share(\'https://twitter.com/home?status=' + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');">Twitter</a></span>'
-        //+ (data[obvod][per].file != 'x' ? '<div><audio class="player" src="' + host + obvod + '_' + per + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
-        + (data[obvod][per].file != 'x' ? '<div><audio src="https://ia801609.us.archive.org/16/items/PreussensGloria/Preussens_Gloria.mp2" preload="none" controls="yes"></audio></div>'  : '')
+        + (data[obvod][per].file != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + obvod + '_' + per + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
         + '</div><div class="left"><img width="120" height="180" alt="'
         + data[obvod][per].jmeno
         + '" src="'
-        //+ host + 'foto/'
-        //+ data[obvod][per].file + '.jpg'
-        + 'https://s3.amazonaws.com/baconmockup/img/baconmockup-95-130.jpg' // DUMMY FOTO
+        + host + 'media/foto/'
+        + data[obvod][per].file + '.jpg'
         +'"></div></li>'
     }
     out += '</ul>'
