@@ -1,1 +1,0 @@
-// skripty ve složce js/ se zakompilují automaticky
