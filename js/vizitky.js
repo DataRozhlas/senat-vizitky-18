@@ -40,7 +40,7 @@ function makeSelect() {
         + filtered.jmeno
         + '" src="'
         + host + 'media/foto/'
-        + filtered.file + '.jpg'
+        + filtered.file + '.JPG'
         +'"></div></li>'
         out += '</ul>'
         $('.linked').html(out);
@@ -68,7 +68,7 @@ function makeTable(obvod) {
         + data[obvod][per].jmeno
         + '" src="'
         + host + 'media/foto/'
-        + data[obvod][per].file + '.jpg'
+        + data[obvod][per].file + '.JPG'
         +'"></div></li>'
     }
     out += '</ul>'
