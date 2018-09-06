@@ -48,6 +48,7 @@ function makeSelect() {
 }
 
 function makeTable(obvod) {
+    $('.linked').html('');
     var out = '<h1>obvod č. ' + obvod + '</h1><ul>';
     for (var per in data[obvod]) {
         out += '<li><div class="right"><h2><span class="cislo">' 

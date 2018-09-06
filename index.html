@@ -270,7 +270,7 @@ var out='<h1>obvod č. '+id[0]+'</h1><ul>';out+='<li><div class="right"><h2><spa
 +'"></div></li>'
 out+='</ul>'
 $('.linked').html(out);}}
-function makeTable(obvod){var out='<h1>obvod č. '+obvod+'</h1><ul>';for(var per in data[obvod]){out+='<li><div class="right"><h2><span class="cislo">'
+function makeTable(obvod){$('.linked').html('');var out='<h1>obvod č. '+obvod+'</h1><ul>';for(var per in data[obvod]){out+='<li><div class="right"><h2><span class="cislo">'
 +per
 +'</span><span>'
 +data[obvod][per].jmeno
