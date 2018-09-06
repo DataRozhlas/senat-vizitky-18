@@ -102,17 +102,12 @@
 .vizitky ul li img {
 	width: 120px;
 	height: auto;
+	margin: 3px;
 }
 
 .vizitky ul li audio {
-	position: absolute;
-	bottom: 15px;
-	left: 15px;
+	position: auto;
 	width: 100%;
-}
-
-audio {
-	max-height: 30px;
 }
 
 .share {

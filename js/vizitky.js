@@ -10,7 +10,7 @@ function share(url) {
 };
 
 var vo = [2,  5,  8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80];
-var voDone = [26];
+var voDone = [8, 17, 20, 23, 26, 29, 38, 41];
 
 //social sharing
 function makeSelect() {
@@ -33,9 +33,9 @@ function makeSelect() {
         + filtered.partaj 
         + '</span> <span class="supplemental">' 
         + filtered.povolani
-        //+ (filtered.pozn != null ? '<div><span class="supplemental">' + filtered.pozn + '</span></div>' : '')
+        + (filtered.pozn != null ? '<div><span class="supplemental">' + filtered.pozn + '</span></div>' : '')
         + '</span>'
-        + (filtered.file != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + id[0] + '_' + id[1] + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
+        + (filtered.afile != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + id[0] + '_' + id[1] + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
         + '</div><div class="left"><img width="120" height="180" alt="' 
         + filtered.jmeno
         + '" src="'
@@ -49,7 +49,6 @@ function makeSelect() {
 
 function makeTable(obvod) {
     var out = '<h1>obvod č. ' + obvod + '</h1><ul>';
-
     for (var per in data[obvod]) {
         out += '<li><div class="right"><h2><span class="cislo">' 
         +  per
@@ -59,11 +58,11 @@ function makeTable(obvod) {
         +  data[obvod][per].partaj 
         + '</span> <span class="supplemental">' 
         +  data[obvod][per].povolani
-        //+ (filtered[per].pozn != null ? '<div><span class="supplemental">' + filtered[per].pozn + '</span></div>' : '')
+        + (data[obvod][per].pozn != null ? '<div><span class="supplemental">' + data[obvod][per].pozn + '</span></div>' : '')
         + '</span>'
         + '<span class="share">Sdílet na <a href="javascript:share(\'https://www.facebook.com/sharer/sharer.php?u=' + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');'
         + '">Facebook</a> | <a href="javascript:share(\'https://twitter.com/home?status=' + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');">Twitter</a></span>'
-        + (data[obvod][per].file != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + obvod + '_' + per + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
+        + (data[obvod][per].afile != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + obvod + '_' + per + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
         + '</div><div class="left"><img width="120" height="180" alt="'
         + data[obvod][per].jmeno
         + '" src="'
