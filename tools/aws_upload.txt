@@ -1,0 +1,1 @@
+aws s3 cp ./ s3://datarozhlas/senat-vizitky-18/media --recursive --acl public-read
