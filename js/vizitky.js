@@ -10,7 +10,7 @@ function share(url) {
 };
 
 var vo = [2,  5,  8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80];
-var voDone = [8, 17, 20, 23, 26, 29, 38, 41];
+var voDone = [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 38, 41, 44, 47, 50];
 
 //social sharing
 function makeSelect() {
@@ -24,7 +24,6 @@ function makeSelect() {
         }
 
         var out = '<h1>obvod č. ' + id[0] + '</h1><ul>';
-       
         out += '<li><div class="right"><h2><span class="cislo">' 
         + id[1] 
         + '</span> <span>' 
