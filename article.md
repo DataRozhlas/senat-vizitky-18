@@ -7,7 +7,7 @@ styles: []
 libraries: [jquery, "https://code.highcharts.com/maps/highmaps.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-Český rozhlas oslovil všech 236 kandidátů a kandidátek do Senátu. Část z nich ale nabídku na natočení volební vizitky odmítla. U některých je pak kvůli podezření z porušení pravidel pro jejich vysílání muselo posuzovat právní oddělení Českého rozhlasu. Pravidla pro volební vizitky jsou veřejně dostupná zde.
+Český rozhlas oslovil všech 236 kandidátů a kandidátek do Senátu. Část z nich ale nabídku na natočení volební vizitky odmítla. U některých je pak kvůli podezření z porušení pravidel pro jejich vysílání muselo posuzovat právní oddělení Českého rozhlasu. Pravidla pro volební vizitky jsou veřejně dostupná [zde](https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-senatu-pcr-2018--1803006).
 
 Na serveru iROZHLAS.cz zatím najdete kandidáty a kandidátky, kteří se o senátorský post ucházejí v Praze, Středočeském kraji, Plzeňském kraji, Ústeckém kraji, Královéhradecký, Pardubický a Jihočeský kraj.. Ostatní přibydou později.
 
@@ -40,4 +40,8 @@ Podoba volebních vizitek je pro všechny kandidáty jednotná. První otázka z
 
 Kandidáti do Poslanecké sněmovny sice všechny otázky předem znali, při natáčení ale museli odpovídat z hlavy a na první pokus. Pokud se ztratili v odpovědi, mohli se vrátit na začátek příslušné věty a zopakovat ji. Nemohli ale mít před sebou připravený text ani poznámky na papíře nebo v mobilním telefonu či tabletu.
 
-Rozhovory s jednotlivými kandidáty se ve vysílání Českého rozhlasu objeví postupně. Pořadí určil los, na který dohlížel notář.
+Rozhovory s jednotlivými kandidáty se ve vysílání Českého rozhlasu objeví postupně. Pořadí [určil los](https://www.rozhlas.cz/informace/volby2018/_zprava/poradi-ucasti-kandidujicich-subjektu-v-jednotlivych-poradech-predvolebniho-vysilani-ceskeho-rozhlasu--1803448), na který dohlížel notář.
+
+<h3><a href="https://www.irozhlas.cz/volby/komunalni-volby-2018" title="Sčítací aplikace Komunální volby 2018">Komunální volby 2018</a></h3>
+
+<h3><a href="https://www.irozhlas.cz/volby/senatni-volby-2018" title="Sčítací aplikace Senátní volby 2018">Senátní volby 2018</a></h3>
