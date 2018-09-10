@@ -9,7 +9,7 @@ options: [] #wide, noheader (, nopic)
 ---
 Český rozhlas oslovil všech 236 kandidátů a kandidátek do Senátu. Část z nich ale nabídku na natočení volební vizitky odmítla. U některých je pak kvůli podezření z porušení pravidel pro jejich vysílání muselo posuzovat právní oddělení Českého rozhlasu. Pravidla pro volební vizitky jsou veřejně dostupná [zde](https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-senatu-pcr-2018--1803006).
 
-Na serveru iROZHLAS.cz zatím najdete kandidáty a kandidátky, kteří se o senátorský post ucházejí v Praze, Středočeském kraji, Plzeňském kraji, Ústeckém kraji, Královéhradecký, Pardubický a Jihočeský kraj.. Ostatní přibydou později.
+Na serveru iROZHLAS.cz zatím najdete kandidáty a kandidátky, kteří se o senátorský post ucházejí v Praze, Středočeském kraji, Plzeňském kraji, Ústeckém kraji, Královéhradecký, Pardubický a Jihočeský kraj. Ostatní přibydou později.
 
 V interaktivní mapě stačí vybrat kraj, který vás zajímá. Zobrazí se vám volební vizitky kandidátů, jejichž součástí je fotka a zvuk s odpověďmi na šest stejných otázek.
 
@@ -22,7 +22,7 @@ V interaktivní mapě stačí vybrat kraj, který vás zajímá. Zobrazí se vá
 </div>
 </wide>
 
-Podoba volebních vizitek je pro všechny kandidáty jednotná. První otázka zní „Proč by lidé měli volit právě Vás?“ a na odpověď mají všichni jednu minutu.
+Podoba volebních vizitek je pro všechny kandidáty jednotná. První otázka zní „Proč by lidé měli volit právě vás?“ a na odpověď mají všichni jednu minutu.
 
 Časový limit u dalších pěti otázek je 30 sekund. Kandidáti samozřejmě můžou odpovědět v kratším čase, ušetřené sekundy se ale nepřevádějí.
 
@@ -36,7 +36,7 @@ Podoba volebních vizitek je pro všechny kandidáty jednotná. První otázka z
 
   + Co byste konkrétně udělal/a pro zlepšení politické kultury v České republice, tedy nejen v Senátu?
 
-  + Budete se v případě zvolení věnovat senátorské práci naplno, nebo se budete chtít souběžně věnovat i jiným zaměstnaneckým, podnikatelským,politickým nebo dalším aktivitám?
+  + Budete se v případě zvolení věnovat senátorské práci naplno, nebo se budete chtít souběžně věnovat i jiným zaměstnaneckým, podnikatelským, politickým nebo dalším aktivitám?
 
 Kandidáti do Poslanecké sněmovny sice všechny otázky předem znali, při natáčení ale museli odpovídat z hlavy a na první pokus. Pokud se ztratili v odpovědi, mohli se vrátit na začátek příslušné věty a zopakovat ji. Nemohli ale mít před sebou připravený text ani poznámky na papíře nebo v mobilním telefonu či tabletu.
 
