@@ -99,6 +99,9 @@ for script in sorted(os.listdir('./js/')):
             jmin = jsmin(js_file.read())
             temp += '\n' + jmin
 
+with open('./embed.js', 'w', encoding='utf-8') as f:
+    f.write(temp)
+
 template = template + '<script>' + temp + '</script>\n' 
 
 # write template
