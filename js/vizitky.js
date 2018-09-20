@@ -62,7 +62,7 @@ function makeTable(obvod) {
         + '</span>'
         + '<span class="share">Sdílet na <a href="javascript:share(\'https://www.facebook.com/sharer/sharer.php?u=' + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');'
         + '">Facebook</a> | <a href="javascript:share(\'https://twitter.com/home?status=' 
-        + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');">Twitter</a> | <a target="_blank" href="http://data.irozhlas.cz/senat-vizitky-18/iframes.html#' 
+        + location.href.split('?')[0] + '?' + obvod + '_' + per + '\');">Twitter</a> | <a target="_blank" href="https://www.irozhlas.cz/volby/senatni-volby-2018/kandidati-vizitky/embed-vizitky-senatoru#' 
         + obvod + '_' + per +'">Embed</a></span>'
         + (data[obvod][per].afile != 'x' ? '<div><audio class="player" src="' + host + 'media/audio/' + obvod + '_' + per + '.mp3" preload="none" controls="yes"></audio></div>'  : '')
         + '</div><div class="left"><img width="120" height="180" alt="'
