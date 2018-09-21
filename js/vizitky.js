@@ -74,6 +74,11 @@ function makeTable(obvod) {
     }
     out += '</ul>'
     $('#bottom').html(out);
+    $('.player').click(function() {
+        var kandId = this.src.split('/').slice(-1)[0].split('.')[0];
+        ga('gtm1.send', 'event', 'ondemand', 'play' , 'Senátní volby 2018 - vizitka senátora ' + kandId);
+    });
+
 }
 
 var mapka;
